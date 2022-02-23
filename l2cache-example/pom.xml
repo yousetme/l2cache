@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>l2cache</artifactId>
-        <groupId>com.coy.l2cache</groupId>
-        <version>1.0.32-SNAPSHOT</version>
+        <groupId>com.youset.l2cache</groupId>
+        <version>1.0.32</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -15,9 +15,9 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.coy.l2cache</groupId>
+            <groupId>com.youset.l2cache</groupId>
             <artifactId>l2cache-spring-boot-starter</artifactId>
-            <version>1.0.32-SNAPSHOT</version>
+            <version>1.0.32</version>
         </dependency>
 
         <dependency>
@@ -82,7 +82,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.coy.l2cache.example.Application</mainClass>
+                    <mainClass>com.youset.l2cache.example.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>

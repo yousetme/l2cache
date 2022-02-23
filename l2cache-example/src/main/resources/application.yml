@@ -7,7 +7,7 @@ logging:
   level:
     root: info
     # 日志级别指定到包或类
-    com.coy.l2cache: debug
+    com.yosuet.l2cache: debug
 
 spring:
   application:
@@ -15,7 +15,6 @@ spring:
 
 # 二级缓存配置
 # 注：caffeine 不适用于数据量大，并且缓存命中率极低的业务场景，如用户维度的缓存。请慎重选择。
-l2cache:
   config:
     # 缓存实例Id，唯一标识应分布式场景下的一个缓存实例节点
     #instanceId: a1
@@ -131,7 +130,7 @@ l2cache:
       #  # 设置poll最大时间间隔（默认3s）
       #  max.poll.interval.ms: 3000
     hotkey:
-      hotkeyType: jd
+      hotkeyType: none
       jdHotKey:
         serviceName: weeget-bullet-goods-rest
         #etcd的地址，如有多个用逗号分隔

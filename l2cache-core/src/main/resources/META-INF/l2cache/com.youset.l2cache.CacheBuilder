@@ -1,0 +1,4 @@
+none=com.youset.l2cache.builder.NoneCacheBuilder
+composite=com.youset.l2cache.builder.CompositeCacheBuilder
+caffeine=com.youset.l2cache.builder.CaffeineCacheBuilder
+redis=com.youset.l2cache.builder.RedisCacheBuilder

@@ -1,0 +1,2 @@
+redis=com.youset.l2cache.sync.RedisCacheSyncPolicy
+kafka=com.youset.l2cache.sync.KafkaCacheSyncPolicy

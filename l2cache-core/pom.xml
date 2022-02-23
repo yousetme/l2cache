@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>l2cache</artifactId>
-        <groupId>com.coy.l2cache</groupId>
-        <version>1.0.32-SNAPSHOT</version>
+        <groupId>com.youset.l2cache</groupId>
+        <version>1.0.32</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -19,6 +19,8 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <version>2.0.9.RELEASE</version>
+
         </dependency>
 
         <!-- caffeine -->
@@ -60,7 +62,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-context</artifactId>
-            <version>2.1.0.RELEASE</version>
+            <version>2.0.3.RELEASE</version>
         </dependency>
 
         <dependency>
@@ -68,7 +70,7 @@
             <artifactId>netty-all</artifactId>
         </dependency>
 
-        <dependency>
+<!--        <dependency>
             <groupId>cn.weeget.hotkey</groupId>
             <artifactId>weeget-infinite-hotkey-client</artifactId>
             <version>0.0.2-SNAPSHOT</version>
@@ -82,7 +84,7 @@
                     <artifactId>netty-all</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <!-- 发布到maven私服 -->
